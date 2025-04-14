@@ -36,5 +36,6 @@
     "@formily/reactive": "^2.2.29",
     "@juggle/resize-observer": "^3.4.0",
     "@portalxsk/designable-shared": "^0.0.2"
-  }
+  },
+  "gitHead": "8363d4712dbac1878bb39d0463eb6563eedf9720"
 }
