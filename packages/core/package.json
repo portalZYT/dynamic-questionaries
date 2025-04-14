@@ -1,6 +1,6 @@
 {
   "name": "@portalxsk/designable-core",
-  "version": "0.0.7-beta.2",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -35,7 +35,7 @@
     "@formily/path": "^2.2.29",
     "@formily/reactive": "^2.2.29",
     "@juggle/resize-observer": "^3.4.0",
-    "@portalxsk/designable-shared": "^0.0.7-beta.2"
+    "@portalxsk/designable-shared": "^0.0.1"
   },
   "gitHead": "785f7ec18a215d788786eee472703e8b697bca15"
 }
