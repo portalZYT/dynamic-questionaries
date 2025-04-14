@@ -3,3 +3,4 @@ node_modules/
 */node_modules/
 .npmrc
 pnpm-lock.yaml
+*.log
