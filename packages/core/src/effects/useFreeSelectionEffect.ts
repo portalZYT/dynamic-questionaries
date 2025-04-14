@@ -6,7 +6,7 @@ import {
   isRectInRect,
   Point,
   Rect,
-} from '@portalxsk/designable-shared';
+} from 'portalxsk-designable-shared';
 
 export const useFreeSelectionEffect = (engine: Engine) => {
   engine.subscribeTo(DragStopEvent, (event) => {

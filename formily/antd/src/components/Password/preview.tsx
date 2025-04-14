@@ -1,7 +1,7 @@
 import React from 'react';
 import { Password as FormilyPassword } from '@formily/antd-v5';
-import { createBehavior, createResource } from '@portalxsk/designable-core';
-import { DnFC } from '@portalxsk/designable-react';
+import { createBehavior, createResource } from 'portalxsk-designable-core';
+import { DnFC } from 'portalxsk-designable-react';
 import { createFieldSchema } from '../Field';
 import { AllSchemas } from '../../schemas';
 import { AllLocales } from '../../locales';

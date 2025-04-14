@@ -1,7 +1,7 @@
 import React from 'react';
 import { FormLayout as FormilyFormLayout } from '@formily/antd-v5';
-import { createBehavior, createResource } from '@portalxsk/designable-core';
-import { DnFC } from '@portalxsk/designable-react';
+import { createBehavior, createResource } from 'portalxsk-designable-core';
+import { DnFC } from 'portalxsk-designable-react';
 import { withContainer } from '../../common/Container';
 import { createVoidFieldSchema } from '../Field';
 import { AllSchemas } from '../../schemas';

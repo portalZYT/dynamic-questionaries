@@ -6,14 +6,14 @@ import {
   TreeNode,
   createBehavior,
   createResource,
-} from '@portalxsk/designable-core';
+} from 'portalxsk-designable-core';
 import {
   useTreeNode,
   useNodeIdProps,
   DroppableWidget,
   TreeNodeWidget,
   DnFC,
-} from '@portalxsk/designable-react';
+} from 'portalxsk-designable-react';
 import { toArr } from '@formily/shared';
 import { LoadTemplate } from '../../common/LoadTemplate';
 import { useDropTemplate } from '../../hooks';

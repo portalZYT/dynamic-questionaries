@@ -1,4 +1,4 @@
-import { GlobalRegistry } from '@portalxsk/designable-core';
+import { GlobalRegistry } from 'portalxsk-designable-core';
 
 GlobalRegistry.registerDesignerLocales({
   'zh-CN': {

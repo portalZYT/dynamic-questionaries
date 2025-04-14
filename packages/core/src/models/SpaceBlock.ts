@@ -3,7 +3,7 @@ import {
   calcDistanceOfSnapLineToEdges,
   LineSegment,
   Rect,
-} from '@portalxsk/designable-shared';
+} from 'portalxsk-designable-shared';
 import { SnapLine } from './SnapLine';
 import { TransformHelper } from './TransformHelper';
 import { TreeNode } from './TreeNode';

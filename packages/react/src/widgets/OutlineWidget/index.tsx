@@ -10,9 +10,9 @@ import {
 import { observer } from '@formily/reactive-react';
 import { OutlineTreeNode } from './OutlineNode';
 import { Insertion } from './Insertion';
-import { TreeNode, Viewport } from '@portalxsk/designable-core';
+import { TreeNode, Viewport } from 'portalxsk-designable-core';
 import { NodeContext } from './context';
-import { globalThisPolyfill } from '@portalxsk/designable-shared';
+import { globalThisPolyfill } from 'portalxsk-designable-shared';
 import { genOutlineTreeWidgetStyle } from './styles';
 
 export interface IOutlineTreeWidgetProps {

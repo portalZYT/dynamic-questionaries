@@ -1,4 +1,4 @@
-import { createLocales } from '@portalxsk/designable-core';
+import { createLocales } from 'portalxsk-designable-core';
 import { Card } from './Card';
 
 export const ArrayCards = createLocales(Card, {

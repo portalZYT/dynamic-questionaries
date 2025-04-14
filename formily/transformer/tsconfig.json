@@ -16,7 +16,7 @@
     "baseUrl": "./",
     "allowSyntheticDefaultImports": true,
     "paths": {
-      "@portalxsk/*": ["../../packages/*/src"]
+      "portalxsk-*": ["../../packages/*/src"]
     }
   }
 }

@@ -1,4 +1,4 @@
-import { each } from '@portalxsk/designable-shared';
+import { each } from 'portalxsk-designable-shared';
 import { Path } from '@formily/path';
 import { observable } from '@formily/reactive';
 import {

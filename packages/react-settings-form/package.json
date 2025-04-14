@@ -1,5 +1,5 @@
 {
-  "name": "@portalxsk/designable-react-settings-form",
+  "name": "portalxsk-designable-react-settings-form",
   "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
     "build": "father build",
     "build:deps": "father prebundle",
     "prepublishOnly": "father doctor && npm run build",
-    "codingPublish": "npm publish --registry=https://github.com/portalZYT/portalxsk-designable.git"
+    "codingPublish": "npm publish --registry=https://registry.npmjs.org/"
   },
   "keywords": [],
   "authors": [
@@ -39,9 +39,9 @@
     "@formily/shared": "^2.2.27",
     "@monaco-editor/loader": "^1.3.3",
     "@monaco-editor/react": "^4.5.1",
-    "@portalxsk/designable-core": "^0.0.2",
-    "@portalxsk/designable-react": "^0.0.2",
-    "@portalxsk/designable-shared": "^0.0.2",
+    "portalxsk-designable-core": "^0.0.2",
+    "portalxsk-designable-react": "^0.0.2",
+    "portalxsk-designable-shared": "^0.0.2",
     "antd": "^5.8.0",
     "classnames": "^2.3.2",
     "monaco-editor": "^0.41.0",
@@ -51,5 +51,5 @@
     "react-dom": "^18.2.0",
     "react-tiny-popover": "^7.2.4"
   },
-  "gitHead": "e1975fac1aa7fc5c4d07d6b0ff87db2a4a78f2ae"
+  "gitHead": "29aec636803dc38c2fd7d718186c6234a5a7daba"
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import { createBehavior, createResource } from '@portalxsk/designable-core';
-import { DnFC } from '@portalxsk/designable-react';
+import { createBehavior, createResource } from 'portalxsk-designable-core';
+import { DnFC } from 'portalxsk-designable-react';
 import { createFieldSchema } from '../Field';
 import { Container } from '../../common/Container';
 import { AllLocales } from '../../locales';

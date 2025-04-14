@@ -1,7 +1,7 @@
 import {
   MonacoInput,
   getNpmCDNRegistry,
-} from '@portalxsk/designable-react-settings-form';
+} from 'portalxsk-designable-react-settings-form';
 
 export interface IDependency {
   name: string;

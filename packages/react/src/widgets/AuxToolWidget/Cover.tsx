@@ -12,7 +12,7 @@ import {
   CursorStatus,
   ClosestPosition,
   TreeNode,
-} from '@portalxsk/designable-core';
+} from 'portalxsk-designable-core';
 import cls from 'classnames';
 interface ICoverRectProps {
   node: TreeNode;

@@ -7,8 +7,8 @@ import {
   useToken,
 } from '../../hooks';
 import { observer } from '@formily/reactive-react';
-import { CursorDragType, CursorStatus } from '@portalxsk/designable-core';
-import { calcRectByStartEndPoint } from '@portalxsk/designable-shared';
+import { CursorDragType, CursorStatus } from 'portalxsk-designable-core';
+import { calcRectByStartEndPoint } from 'portalxsk-designable-shared';
 import cls from 'classnames';
 
 export const FreeSelection = observer(() => {

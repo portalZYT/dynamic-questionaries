@@ -1,4 +1,4 @@
-import { EventDriver } from '@portalxsk/designable-shared';
+import { EventDriver } from 'portalxsk-designable-shared';
 import { Engine } from '../models/Engine';
 import { DragStartEvent, DragMoveEvent, DragStopEvent } from '../events';
 

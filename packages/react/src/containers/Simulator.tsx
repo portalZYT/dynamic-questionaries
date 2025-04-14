@@ -1,6 +1,6 @@
 import React from 'react';
-import { ScreenType } from '@portalxsk/designable-core';
-import { requestIdle } from '@portalxsk/designable-shared';
+import { ScreenType } from 'portalxsk-designable-core';
+import { requestIdle } from 'portalxsk-designable-shared';
 import { observer } from '@formily/reactive-react';
 import { useScreen } from '../hooks';
 import {

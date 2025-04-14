@@ -1,5 +1,5 @@
 import { getNpmCDNRegistry } from '../registry';
-import { globalThisPolyfill } from '@portalxsk/designable-shared';
+import { globalThisPolyfill } from 'portalxsk-designable-shared';
 export interface ILoadScriptProps {
   package: string;
   entry: string;

@@ -1,4 +1,4 @@
-import { ICustomEvent } from '@portalxsk/designable-shared';
+import { ICustomEvent } from 'portalxsk-designable-shared';
 import { ITreeNode, TreeNode } from '../../models';
 import { IEngineContext } from '../../types';
 

@@ -1,4 +1,4 @@
-import { getKeyCodeFromEvent, KeyCode } from '@portalxsk/designable-shared';
+import { getKeyCodeFromEvent, KeyCode } from 'portalxsk-designable-shared';
 import { IEngineContext } from '../../types';
 
 export class AbstractKeyboardEvent {

@@ -1,4 +1,4 @@
-import { GlobalRegistry } from '@portalxsk/designable-core';
+import { GlobalRegistry } from 'portalxsk-designable-core';
 import icons from './icons';
 import panels from './panels';
 import global from './global';

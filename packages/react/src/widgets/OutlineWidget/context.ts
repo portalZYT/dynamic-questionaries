@@ -1,4 +1,4 @@
-import { TreeNode } from '@portalxsk/designable-core';
+import { TreeNode } from 'portalxsk-designable-core';
 import React, { createContext } from 'react';
 
 interface INodeContext {

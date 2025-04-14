@@ -1,12 +1,12 @@
-import { useCssInJs } from '@portalxsk/designable-react';
+import { useCssInJs } from 'portalxsk-designable-react';
 import { genFlowViewportStyle } from './styles';
 import cls from 'classnames';
 import { useEffect, useRef } from 'react';
 import { Graph, Path } from '@antv/x6';
-import { uid } from '@portalxsk/designable-shared';
+import { uid } from 'portalxsk-designable-shared';
 import { useFlowViewport } from '../hooks';
 import { useDrop } from 'react-dnd';
-import { TreeNode } from '@portalxsk/designable-core';
+import { TreeNode } from 'portalxsk-designable-core';
 import _ from 'lodash';
 import ReactDOM from 'react-dom/client';
 import { ContextMenuPanel } from '../panels/ContextMenuPanel';

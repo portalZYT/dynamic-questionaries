@@ -5,7 +5,7 @@ import {
   usePrefix,
   IconWidget,
   useCssInJs,
-} from '@portalxsk/designable-react';
+} from 'portalxsk-designable-react';
 import { InputItems } from '../InputItems';
 import cls from 'classnames';
 import { genFlexStyleSetterStyle } from './styles';

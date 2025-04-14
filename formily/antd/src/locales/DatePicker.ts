@@ -1,4 +1,4 @@
-import { createLocales } from '@portalxsk/designable-core';
+import { createLocales } from 'portalxsk-designable-core';
 
 export const DatePicker = {
   'zh-CN': {

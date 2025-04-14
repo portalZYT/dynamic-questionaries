@@ -2,14 +2,14 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { clone, uid } from '@formily/shared';
 import { createForm, isVoidField } from '@formily/core';
 import { createSchemaField } from '@formily/react';
-import { GlobalRegistry } from '@portalxsk/designable-core';
-import { requestIdle } from '@portalxsk/designable-shared';
+import { GlobalRegistry } from 'portalxsk-designable-core';
+import { requestIdle } from 'portalxsk-designable-shared';
 import {
   usePrefix,
   TextWidget,
   useCssInJs,
-} from '@portalxsk/designable-react';
-import { MonacoInput } from '@portalxsk/designable-react-settings-form';
+} from 'portalxsk-designable-react';
+import { MonacoInput } from 'portalxsk-designable-react-settings-form';
 import {
   Form,
   ArrayTable,

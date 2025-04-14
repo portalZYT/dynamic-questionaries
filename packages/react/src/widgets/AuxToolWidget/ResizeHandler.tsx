@@ -1,7 +1,7 @@
 import React from 'react';
 import cls from 'classnames';
 import { useDesigner, usePrefix, useToken } from '../../hooks';
-import { TreeNode } from '@portalxsk/designable-core';
+import { TreeNode } from 'portalxsk-designable-core';
 
 export interface IResizeHandlerProps {
   node: TreeNode;

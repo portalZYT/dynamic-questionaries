@@ -1,5 +1,5 @@
 {
-  "name": "@portalxsk/designable-formily-antd",
+  "name": "portalxsk-designable-formily-antd",
   "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
@@ -36,14 +36,14 @@
     "@formily/reactive": "^2.2.29",
     "@formily/reactive-react": "^2.2.29",
     "@formily/shared": "^2.2.29",
-    "@portalxsk/designable-core": "^0.0.2",
-    "@portalxsk/designable-formily-setters": "^0.0.2",
-    "@portalxsk/designable-formily-transformer": "^0.0.2",
-    "@portalxsk/designable-react": "^0.0.2",
-    "@portalxsk/designable-shared": "^0.0.2",
+    "portalxsk-designable-core": "^0.0.2",
+    "portalxsk-designable-formily-setters": "^0.0.2",
+    "portalxsk-designable-formily-transformer": "^0.0.2",
+    "portalxsk-designable-react": "^0.0.2",
+    "portalxsk-designable-shared": "^0.0.2",
     "antd": "^5.8.2",
     "classnames": "^2.3.2",
     "react": "^18.2.0"
   },
-  "gitHead": "e1975fac1aa7fc5c4d07d6b0ff87db2a4a78f2ae"
+  "gitHead": "29aec636803dc38c2fd7d718186c6234a5a7daba"
 }

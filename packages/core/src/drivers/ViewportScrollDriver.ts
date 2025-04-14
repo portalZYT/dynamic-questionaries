@@ -1,4 +1,4 @@
-import { EventDriver, globalThisPolyfill } from '@portalxsk/designable-shared';
+import { EventDriver, globalThisPolyfill } from 'portalxsk-designable-shared';
 import { Engine } from '../models/Engine';
 import { ViewportScrollEvent } from '../events';
 

@@ -10,7 +10,7 @@ import {
   Rect,
   IRect,
   isRectInRect,
-} from '@portalxsk/designable-shared';
+} from 'portalxsk-designable-shared';
 import { action, define, observable } from '@formily/reactive';
 import { Workspace } from './Workspace';
 import { Engine } from './Engine';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { usePrefix } from '@portalxsk/designable-react';
+import { usePrefix } from 'portalxsk-designable-react';
 import { useField, observer } from '@formily/react';
 import { FoldItem } from '../FoldItem';
 import { ColorInput } from '../ColorInput';

@@ -1,4 +1,4 @@
-import { TreeNode } from '@portalxsk/designable-core';
+import { TreeNode } from 'portalxsk-designable-core';
 import { useDesigner } from './useDesigner';
 import { useTreeNode } from './useTreeNode';
 

@@ -4,13 +4,13 @@ import {
   TreeNode,
   createBehavior,
   createResource,
-} from '@portalxsk/designable-core';
+} from 'portalxsk-designable-core';
 import {
   DnFC,
   useTreeNode,
   useNodeIdProps,
   DroppableWidget,
-} from '@portalxsk/designable-react';
+} from 'portalxsk-designable-react';
 import { observer } from '@formily/reactive-react';
 import { LoadTemplate } from '../../common/LoadTemplate';
 import { createFieldSchema } from '../Field';

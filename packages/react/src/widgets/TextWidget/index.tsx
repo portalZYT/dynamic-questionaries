@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
-import { isStr, isPlainObj } from '@portalxsk/designable-shared';
+import { isStr, isPlainObj } from 'portalxsk-designable-shared';
 import {
   GlobalRegistry,
   IDesignerMiniLocales,
-} from '@portalxsk/designable-core';
+} from 'portalxsk-designable-core';
 import { observer } from '@formily/reactive-react';
 
 export interface ITextWidgetProps {

@@ -3,8 +3,8 @@ import {
   TreeNode,
   CursorStatus,
   CursorDragType,
-} from '@portalxsk/designable-core';
-import { LayoutObserver, Rect } from '@portalxsk/designable-shared';
+} from 'portalxsk-designable-core';
+import { LayoutObserver, Rect } from 'portalxsk-designable-shared';
 import { useViewport } from './useViewport';
 import { useDesigner } from './useDesigner';
 

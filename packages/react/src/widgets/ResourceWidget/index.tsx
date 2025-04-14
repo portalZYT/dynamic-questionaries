@@ -4,8 +4,8 @@ import {
   isResourceList,
   IResourceLike,
   IResource,
-} from '@portalxsk/designable-core';
-import { isFn } from '@portalxsk/designable-shared';
+} from 'portalxsk-designable-core';
+import { isFn } from 'portalxsk-designable-shared';
 import { observer } from '@formily/reactive-react';
 import { useCssInJs, usePrefix } from '../../hooks';
 import { IconWidget } from '../IconWidget';

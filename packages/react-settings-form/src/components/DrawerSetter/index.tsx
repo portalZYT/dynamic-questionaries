@@ -6,7 +6,7 @@ import {
   IconWidget,
   usePrefix,
   useTreeNode,
-} from '@portalxsk/designable-react';
+} from 'portalxsk-designable-react';
 import { Button, ButtonProps } from 'antd';
 import cls from 'classnames';
 // import './styles.less'

@@ -7,13 +7,13 @@ import {
   TextWidget,
   IconWidget,
   useToken,
-} from '@portalxsk/designable-react';
+} from 'portalxsk-designable-react';
 import { Title } from './Title';
 import { Header } from './Header';
 import { traverseTree } from './shared';
 import { ITreeDataSource, INodeItem } from './types';
 // import './styles.less'
-import { GlobalRegistry } from '@portalxsk/designable-core';
+import { GlobalRegistry } from 'portalxsk-designable-core';
 import cls from 'classnames';
 
 const limitTreeDrag = ({ dropPosition }) => {

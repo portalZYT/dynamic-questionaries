@@ -1,4 +1,4 @@
-import { isFn, KeyCode } from '@portalxsk/designable-shared';
+import { isFn, KeyCode } from 'portalxsk-designable-shared';
 import { IEngineContext } from '../types';
 
 export { KeyCode };

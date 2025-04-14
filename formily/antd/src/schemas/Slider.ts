@@ -1,4 +1,4 @@
-import { GlobalRegistry } from '@portalxsk/designable-core';
+import { GlobalRegistry } from 'portalxsk-designable-core';
 import { ISchema } from '@formily/react';
 
 export const Slider: ISchema = {

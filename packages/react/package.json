@@ -1,5 +1,5 @@
 {
-  "name": "@portalxsk/designable-react",
+  "name": "portalxsk-designable-react",
   "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
     "build": "father build",
     "build:deps": "father prebundle",
     "prepublishOnly": "father doctor && npm run build",
-    "codingPublish": "npm publish --registry=https://github.com/portalZYT/portalxsk-designable.git"
+    "codingPublish": "npm publish --registry=https://registry.npmjs.org/"
   },
   "keywords": [],
   "authors": [
@@ -35,12 +35,12 @@
     "@ant-design/cssinjs": "^1.16.1",
     "@formily/reactive": "^2.2.29",
     "@formily/reactive-react": "^2.2.29",
-    "@portalxsk/designable-core": "^0.0.2",
-    "@portalxsk/designable-shared": "^0.0.2",
+    "portalxsk-designable-core": "^0.0.2",
+    "portalxsk-designable-shared": "^0.0.2",
     "antd": "^5.8.2",
     "classnames": "^2.3.2",
     "dateformat": "^5.0.3",
     "react": "^18.2.0"
   },
-  "gitHead": "e1975fac1aa7fc5c4d07d6b0ff87db2a4a78f2ae"
+  "gitHead": "29aec636803dc38c2fd7d718186c6234a5a7daba"
 }

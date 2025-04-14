@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { observer } from '@formily/reactive-react';
-import { usePrefix, useToken } from '@portalxsk/designable-react';
+import { usePrefix, useToken } from 'portalxsk-designable-react';
 import cls from 'classnames';
 
 // import './styles.less'

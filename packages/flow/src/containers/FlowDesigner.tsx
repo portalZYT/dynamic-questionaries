@@ -2,7 +2,7 @@ import React, { FC, useEffect, useRef } from 'react';
 import { FlowEngine } from '../models';
 import { FlowDesignerEngineContext } from '../context';
 import { useFlowDesigner } from '../hooks';
-import { useCssInJs } from '@portalxsk/designable-react';
+import { useCssInJs } from 'portalxsk-designable-react';
 import { genFlowDesignerStyle } from './styles';
 import cls from 'classnames';
 

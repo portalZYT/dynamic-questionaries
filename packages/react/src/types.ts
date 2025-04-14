@@ -1,5 +1,5 @@
 import React from 'react';
-import { Engine, IResource, IBehavior } from '@portalxsk/designable-core';
+import { Engine, IResource, IBehavior } from 'portalxsk-designable-core';
 
 export interface IDesignerLayoutProps {
   children?: React.ReactNode;
