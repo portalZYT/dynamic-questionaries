@@ -10,11 +10,11 @@
     "build": "father build",
     "build:deps": "father prebundle",
     "prepublishOnly": "father doctor && npm run build",
-    "codingPublish": "npm publish --registry=https://moensun-npm.pkg.coding.net/npm/moensun/"
+    "codingPublish": "npm publish --registry=https://github.com/portalZYT/portalxsk-designable.git"
   },
   "keywords": [],
   "authors": [
-    "fengxiaotx@163.com"
+    ""
   ],
   "license": "MIT",
   "files": [
