@@ -10,7 +10,7 @@
     "build": "father build",
     "build:deps": "father prebundle",
     "prepublishOnly": "father doctor && npm run build",
-    "codingPublish": "npm publish --registry=https://github.com/portalZYT/portalxsk-designable.git"
+    "codingPublish": "npm publish --registry=https://registry.npmjs.org/"
   },
   "keywords": [],
   "authors": [
