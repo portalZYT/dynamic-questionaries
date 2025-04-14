@@ -50,5 +50,6 @@
     "react-color": "^2.19.3",
     "react-dom": "^18.2.0",
     "react-tiny-popover": "^7.2.4"
-  }
+  },
+  "gitHead": "5e8d4d1e1a5f6b706975893a3f884519f8987449"
 }
