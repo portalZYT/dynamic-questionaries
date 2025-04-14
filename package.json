@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "portalxsk-designable",
   "private": true,
   "workspaces": [
     "examples/*",
