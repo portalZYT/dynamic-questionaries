@@ -1,5 +1,5 @@
 {
-  "name": "portalxsk-designable",
+  "name": "@portalxsk/designable",
   "private": true,
   "workspaces": [
     "examples/*",
@@ -19,7 +19,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,json,css,less}\"",
     "publish": "npm publish --registry=https://registry.npmjs.org/",
     "publishOnly": "npm publish --ignore-scripts --registry=https://registry.npmjs.org/",
-    "portalxsk:publishOnly": "npm publish --ignore-scripts --registry=https://registry.npmjs.org/"
+    "triones:publishOnly": "npm publish --ignore-scripts --registry=https://registry.npmjs.org/"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "^5.1.3",
