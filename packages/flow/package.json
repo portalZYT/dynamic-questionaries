@@ -51,6 +51,6 @@
     "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18.2.0",
     "requestidlecallback": "^0.3.0"
-  },
-  "gitHead": "785f7ec18a215d788786eee472703e8b697bca15"
+  }
+ 
 }

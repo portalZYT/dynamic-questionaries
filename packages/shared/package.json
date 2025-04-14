@@ -14,7 +14,7 @@
   },
   "keywords": [],
   "authors": [
-    ""
+    "portalZYT"
   ],
   "license": "MIT",
   "files": [
@@ -32,6 +32,5 @@
   },
   "dependencies": {
     "requestidlecallback": "^0.3.0"
-  },
-  "gitHead": "785f7ec18a215d788786eee472703e8b697bca15"
+  }
 }

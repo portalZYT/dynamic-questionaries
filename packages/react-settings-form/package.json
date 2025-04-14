@@ -14,7 +14,7 @@
   },
   "keywords": [],
   "authors": [
-    ""
+    "portalZYT"
   ],
   "license": "MIT",
   "files": [
@@ -50,6 +50,5 @@
     "react-color": "^2.19.3",
     "react-dom": "^18.2.0",
     "react-tiny-popover": "^7.2.4"
-  },
-  "gitHead": "785f7ec18a215d788786eee472703e8b697bca15"
+  }
 }
