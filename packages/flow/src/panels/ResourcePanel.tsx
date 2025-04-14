@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCssInJs } from 'portalxsk-designable-react';
+import { useCssInJs } from '@portalxsk/designable-react';
 import { genResourcePanelStyle } from './styles';
 import cls from 'classnames';
 

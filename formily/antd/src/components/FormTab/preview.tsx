@@ -6,14 +6,14 @@ import {
   TreeNode,
   createBehavior,
   createResource,
-} from 'portalxsk-designable-core';
+} from '@portalxsk/designable-core';
 import {
   useNodeIdProps,
   useTreeNode,
   TreeNodeWidget,
   DroppableWidget,
   DnFC,
-} from 'portalxsk-designable-react';
+} from '@portalxsk/designable-react';
 import { LoadTemplate } from '../../common/LoadTemplate';
 import { useDropTemplate } from '../../hooks';
 import { createVoidFieldSchema } from '../Field';

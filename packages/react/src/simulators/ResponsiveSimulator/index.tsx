@@ -6,11 +6,11 @@ import {
   DragMoveEvent,
   DragStopEvent,
   CursorDragType,
-} from 'portalxsk-designable-core';
+} from '@portalxsk/designable-core';
 import {
   calcSpeedFactor,
   createUniformSpeedAnimation,
-} from 'portalxsk-designable-shared';
+} from '@portalxsk/designable-shared';
 import { useScreen, useDesigner, usePrefix, useCssInJs } from '../../hooks';
 import { IconWidget } from '../../widgets';
 import { ResizeHandle, ResizeHandleType } from './handle';

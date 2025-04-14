@@ -12,7 +12,7 @@ import {
   useToken,
 } from '../../hooks';
 import { observer } from '@formily/reactive-react';
-import { TreeNode } from 'portalxsk-designable-core';
+import { TreeNode } from '@portalxsk/designable-core';
 import { TranslateHandler } from './TranslateHandler';
 import cls from 'classnames';
 

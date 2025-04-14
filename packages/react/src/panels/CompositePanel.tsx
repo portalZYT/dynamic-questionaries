@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { isValid } from 'portalxsk-designable-shared';
+import { isValid } from '@portalxsk/designable-shared';
 import cls from 'classnames';
 import { IconWidget, TextWidget } from '../widgets';
 import { useCssInJs, usePrefix } from '../hooks';

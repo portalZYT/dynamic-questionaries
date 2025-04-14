@@ -1,6 +1,6 @@
 import { ISchema, Schema } from '@formily/json-schema';
-import { ITreeNode } from 'portalxsk-designable-core';
-import { clone, uid } from 'portalxsk-designable-shared';
+import { ITreeNode } from '@portalxsk/designable-core';
+import { clone, uid } from '@portalxsk/designable-shared';
 
 export interface ITransformerOptions {
   designableFieldName?: string;

@@ -1,5 +1,5 @@
-import { Event, IEventProps } from 'portalxsk-designable-shared';
-import { TreeNode } from 'portalxsk-designable-core';
+import { Event, IEventProps } from '@portalxsk/designable-shared';
+import { TreeNode } from '@portalxsk/designable-core';
 import { FlowViewport } from './FlowViewport';
 import { Options as GraphOptions } from '@antv/x6/src/graph/options';
 import { ContextMenuItem, GraphData } from '../types';

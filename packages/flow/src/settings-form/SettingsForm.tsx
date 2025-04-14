@@ -1,14 +1,14 @@
 import React, { FC, useEffect, useMemo, useState } from 'react';
 import { useFlowDesigner, useFlowViewport, useSelectedNode } from '../hooks';
 import { observer } from '@formily/reactive-react';
-import { useCssInJs } from 'portalxsk-designable-react';
+import { useCssInJs } from '@portalxsk/designable-react';
 import cls from 'classnames';
-import { TreeNode } from 'portalxsk-designable-core';
+import { TreeNode } from '@portalxsk/designable-core';
 import { Form } from '@formily/antd-v5';
 import { createForm, Form as FormInstance } from '@formily/core';
 import { SchemaField } from './SchemaField';
 import { genSettingsFormStyle } from './styles';
-import { cancelIdle, requestIdle } from 'portalxsk-designable-shared';
+import { cancelIdle, requestIdle } from '@portalxsk/designable-shared';
 import { effectLocales, effectSave } from './effects';
 
 const GlobalState = {

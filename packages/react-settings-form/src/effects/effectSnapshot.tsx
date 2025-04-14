@@ -1,4 +1,4 @@
-import { Operation } from 'portalxsk-designable-core';
+import { Operation } from '@portalxsk/designable-core';
 import { onFieldInputValueChange } from '@formily/core';
 
 let timeRequest = null;

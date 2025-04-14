@@ -3,11 +3,11 @@ import {
   TreeNode,
   ITreeNode,
   WorkbenchTypes,
-} from 'portalxsk-designable-core';
+} from '@portalxsk/designable-core';
 import { observer } from '@formily/reactive-react';
 import { useTree, useWorkbench } from '../hooks';
 import { Viewport } from '../containers';
-import { requestIdle } from 'portalxsk-designable-shared';
+import { requestIdle } from '@portalxsk/designable-shared';
 
 export interface IViewPanelProps {
   type: WorkbenchTypes;

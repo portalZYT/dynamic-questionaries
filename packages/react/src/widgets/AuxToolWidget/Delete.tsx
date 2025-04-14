@@ -1,5 +1,5 @@
 import React from 'react';
-import { TreeNode } from 'portalxsk-designable-core';
+import { TreeNode } from '@portalxsk/designable-core';
 import { IconWidget } from '../IconWidget';
 import { usePrefix, useToken } from '../../hooks';
 import { Button } from 'antd';

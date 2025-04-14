@@ -1,4 +1,4 @@
-import { globalThisPolyfill } from 'portalxsk-designable-shared';
+import { globalThisPolyfill } from '@portalxsk/designable-shared';
 import * as Core from './exports';
 
 export * from './exports';

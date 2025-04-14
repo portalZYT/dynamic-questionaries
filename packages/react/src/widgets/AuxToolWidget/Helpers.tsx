@@ -1,5 +1,5 @@
 import React, { useRef, useState, useLayoutEffect } from 'react';
-import { TreeNode } from 'portalxsk-designable-core';
+import { TreeNode } from '@portalxsk/designable-core';
 import { reaction } from '@formily/reactive';
 import { usePrefix, useToken, useViewport } from '../../hooks';
 import { Selector } from './Selector';
@@ -7,7 +7,7 @@ import { Copy } from './Copy';
 import { Delete } from './Delete';
 import { DragHandler } from './DragHandler';
 import cls from 'classnames';
-import { Rect } from 'portalxsk-designable-shared';
+import { Rect } from '@portalxsk/designable-shared';
 
 const HELPER_DEBOUNCE_TIMEOUT = 100;
 

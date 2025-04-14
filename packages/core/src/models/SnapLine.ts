@@ -4,7 +4,7 @@ import {
   IPoint,
   calcOffsetOfSnapLineSegmentToEdge,
   Rect,
-} from 'portalxsk-designable-shared';
+} from '@portalxsk/designable-shared';
 import { TreeNode } from './TreeNode';
 import { TransformHelper } from './TransformHelper';
 

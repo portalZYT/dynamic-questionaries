@@ -1,5 +1,5 @@
 import React from 'react';
-import { NodeActionsWidget } from 'portalxsk-designable-react';
+import { NodeActionsWidget } from '@portalxsk/designable-react';
 
 export interface ITemplateAction {
   title: React.ReactNode;

@@ -1,4 +1,4 @@
-import { createLocales } from 'portalxsk-designable-core';
+import { createLocales } from '@portalxsk/designable-core';
 import { Input } from './Input';
 
 export const Password = createLocales(Input, {

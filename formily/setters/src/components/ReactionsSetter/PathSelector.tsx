@@ -1,6 +1,6 @@
 import React from 'react';
-import { TreeNode } from 'portalxsk-designable-core';
-import { useSelectedNode } from 'portalxsk-designable-react';
+import { TreeNode } from '@portalxsk/designable-core';
+import { useSelectedNode } from '@portalxsk/designable-react';
 import { TreeSelectProps, TreeSelect } from 'antd';
 
 export interface IPathSelectorProps

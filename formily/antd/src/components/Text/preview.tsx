@@ -1,6 +1,6 @@
 import React from 'react';
-import { createBehavior, createResource } from 'portalxsk-designable-core';
-import { DnFC, useCssInJs } from 'portalxsk-designable-react';
+import { createBehavior, createResource } from '@portalxsk/designable-core';
+import { DnFC, useCssInJs } from '@portalxsk/designable-react';
 import { createVoidFieldSchema } from '../Field';
 import { AllSchemas } from '../../schemas';
 import { AllLocales } from '../../locales';

@@ -9,7 +9,7 @@ import {
   Workspace,
   TreeNode,
 } from './models';
-import { IEventProps } from 'portalxsk-designable-shared';
+import { IEventProps } from '@portalxsk/designable-shared';
 
 export type IEngineProps<T = Event> = IEventProps<T> & {
   shortcuts?: Shortcut[];

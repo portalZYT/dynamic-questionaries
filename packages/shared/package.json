@@ -1,5 +1,5 @@
 {
-  "name": "portalxsk-designable-shared",
+  "name": "@portalxsk/designable-shared",
   "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",

@@ -2,11 +2,11 @@ import {
   DnComponent,
   DnFC,
   IDesignerComponents,
-} from 'portalxsk-designable-react';
+} from '@portalxsk/designable-react';
 import React, { FC, useEffect } from 'react';
-import { GlobalRegistry } from 'portalxsk-designable-core';
+import { GlobalRegistry } from '@portalxsk/designable-core';
 import { register } from '@antv/x6-react-shape';
-import { each } from 'portalxsk-designable-shared';
+import { each } from '@portalxsk/designable-shared';
 import _ from 'lodash';
 
 type ComponentsWidgetProps = {

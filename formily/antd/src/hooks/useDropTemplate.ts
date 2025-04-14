@@ -1,5 +1,5 @@
-import { AppendNodeEvent, TreeNode } from 'portalxsk-designable-core';
-import { useDesigner } from 'portalxsk-designable-react';
+import { AppendNodeEvent, TreeNode } from '@portalxsk/designable-core';
+import { useDesigner } from '@portalxsk/designable-react';
 import { matchComponent, matchChildComponent } from '../shared';
 
 export const useDropTemplate = (

@@ -1,4 +1,4 @@
-import { EventDriver } from 'portalxsk-designable-shared';
+import { EventDriver } from '@portalxsk/designable-shared';
 import { KeyDownEvent, KeyUpEvent } from '../events';
 
 function filter(event: KeyboardEvent) {

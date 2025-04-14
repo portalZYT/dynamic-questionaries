@@ -1,6 +1,6 @@
 import React from 'react';
 import { observer } from '@formily/reactive-react';
-import { DroppableWidget } from 'portalxsk-designable-react';
+import { DroppableWidget } from '@portalxsk/designable-react';
 // import './styles.less'
 
 type ContainerProps = {

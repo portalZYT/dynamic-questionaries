@@ -4,12 +4,12 @@ import {
   isResourceList,
   IResourceLike,
   IResource,
-} from 'portalxsk-designable-core';
-import { isFn } from 'portalxsk-designable-shared';
+} from '@portalxsk/designable-core';
+import { isFn } from '@portalxsk/designable-shared';
 import { observer } from '@formily/reactive-react';
 import cls from 'classnames';
 import { genResourceWidgetStyle } from './styles';
-import { TextWidget, useCssInJs, useToken } from 'portalxsk-designable-react';
+import { TextWidget, useCssInJs, useToken } from '@portalxsk/designable-react';
 import { useDrag } from 'react-dnd';
 import { IconWidget } from '../IconWidget';
 

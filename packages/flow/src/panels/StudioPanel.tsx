@@ -1,4 +1,4 @@
-import { useCssInJs } from 'portalxsk-designable-react';
+import { useCssInJs } from '@portalxsk/designable-react';
 import { genStudioPanelStyle } from './styles';
 import cls from 'classnames';
 import React, { FC } from 'react';

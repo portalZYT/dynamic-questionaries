@@ -4,8 +4,8 @@ import {
   ClosestPosition,
   CursorStatus,
   DragMoveEvent,
-} from 'portalxsk-designable-core';
-import { isFn } from 'portalxsk-designable-shared';
+} from '@portalxsk/designable-core';
+import { isFn } from '@portalxsk/designable-shared';
 import { autorun } from '@formily/reactive';
 import { observer } from '@formily/reactive-react';
 import {

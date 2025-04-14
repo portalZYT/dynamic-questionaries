@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import { createForm } from '@formily/core';
 import { Form } from '@formily/antd-v5';
 import { observer } from '@formily/react';
-import { requestIdle, cancelIdle } from 'portalxsk-designable-shared';
+import { requestIdle, cancelIdle } from '@portalxsk/designable-shared';
 import {
   usePrefix,
   useSelected,
@@ -12,7 +12,7 @@ import {
   IconWidget,
   NodePathWidget,
   useCssInJs,
-} from 'portalxsk-designable-react';
+} from '@portalxsk/designable-react';
 import { SchemaField } from './SchemaField';
 import { ISettingFormProps } from './types';
 import { SettingsFormContext } from './shared/context';

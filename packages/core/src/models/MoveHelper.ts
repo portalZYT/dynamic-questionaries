@@ -8,7 +8,7 @@ import {
   isPointInRect,
   IPoint,
   Rect,
-} from 'portalxsk-designable-shared';
+} from '@portalxsk/designable-shared';
 import { DragNodeEvent, DropNodeEvent } from '../events';
 import { Viewport } from './Viewport';
 import { CursorDragType } from './Cursor';

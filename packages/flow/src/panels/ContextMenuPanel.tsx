@@ -1,13 +1,13 @@
 import { FC, useRef } from 'react';
 import { ContextMenuItem } from '../types';
 import { Button } from 'antd';
-import { useCssInJs } from 'portalxsk-designable-react';
+import { useCssInJs } from '@portalxsk/designable-react';
 import { genContextMenuPanelStyle } from './styles';
 import cls from 'classnames';
 import { useClickAway } from 'ahooks';
 import { IconWidget } from '../widgets/IconWidget';
 import React from 'react';
-import { uid } from 'portalxsk-designable-shared';
+import { uid } from '@portalxsk/designable-shared';
 
 type ContextMenuPanelProps = {
   onDestroy: () => void;

@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { globalThisPolyfill } from 'portalxsk-designable-shared';
+import { globalThisPolyfill } from '@portalxsk/designable-shared';
 import { FlowDesignerEngineContext } from '../context';
 
 export const useFlowDesigner = () => {

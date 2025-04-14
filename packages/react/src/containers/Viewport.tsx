@@ -1,8 +1,8 @@
 import React, { useLayoutEffect, useRef, useState } from 'react';
 import { useCssInJs, usePrefix, useViewport } from '../hooks';
 import { AuxToolWidget, EmptyWidget } from '../widgets';
-import { Viewport as ViewportType } from 'portalxsk-designable-core';
-import { requestIdle, globalThisPolyfill } from 'portalxsk-designable-shared';
+import { Viewport as ViewportType } from '@portalxsk/designable-core';
+import { requestIdle, globalThisPolyfill } from '@portalxsk/designable-shared';
 import cls from 'classnames';
 import { genViewportStyle } from './styles';
 

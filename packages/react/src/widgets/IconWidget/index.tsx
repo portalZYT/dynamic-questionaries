@@ -1,5 +1,5 @@
 import React, { createContext, useContext } from 'react';
-import { isStr, isFn, isObj, isPlainObj } from 'portalxsk-designable-shared';
+import { isStr, isFn, isObj, isPlainObj } from '@portalxsk/designable-shared';
 import { observer } from '@formily/reactive-react';
 import { Tooltip, TooltipProps } from 'antd';
 import { useCssInJs, usePrefix, useRegistry, useTheme } from '../../hooks';

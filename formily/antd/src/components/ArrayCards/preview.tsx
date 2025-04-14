@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import { Card, CardProps } from 'antd';
-import { TreeNode, createResource } from 'portalxsk-designable-core';
+import { TreeNode, createResource } from '@portalxsk/designable-core';
 import {
   useTreeNode,
   TreeNodeWidget,
@@ -8,7 +8,7 @@ import {
   useNodeIdProps,
   DnFC,
   useCssInJs,
-} from 'portalxsk-designable-react';
+} from '@portalxsk/designable-react';
 import { ArrayBase } from '@formily/antd-v5';
 import { observer } from '@formily/react';
 import { LoadTemplate } from '../../common/LoadTemplate';

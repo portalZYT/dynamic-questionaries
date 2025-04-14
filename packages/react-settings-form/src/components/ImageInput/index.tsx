@@ -5,7 +5,7 @@ import {
   usePrefix,
   IconWidget,
   useCssInJs,
-} from 'portalxsk-designable-react';
+} from '@portalxsk/designable-react';
 import { SettingsFormContext } from '../../shared/context';
 import cls from 'classnames';
 import { genImageInputStyle } from './styles';

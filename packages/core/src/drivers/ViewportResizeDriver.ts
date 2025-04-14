@@ -1,8 +1,8 @@
-import { EventDriver } from 'portalxsk-designable-shared';
+import { EventDriver } from '@portalxsk/designable-shared';
 import { Engine } from '../models/Engine';
 import { ViewportResizeEvent } from '../events';
 import { ResizeObserver } from '@juggle/resize-observer';
-import { globalThisPolyfill } from 'portalxsk-designable-shared';
+import { globalThisPolyfill } from '@portalxsk/designable-shared';
 
 export class ViewportResizeDriver extends EventDriver<Engine> {
   request = null;

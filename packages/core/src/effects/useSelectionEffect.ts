@@ -1,6 +1,6 @@
 import { Engine, CursorStatus } from '../models';
 import { MouseClickEvent } from '../events';
-import { KeyCode, Point } from 'portalxsk-designable-shared';
+import { KeyCode, Point } from '@portalxsk/designable-shared';
 
 export const useSelectionEffect = (engine: Engine) => {
   engine.subscribeTo(MouseClickEvent, (event) => {

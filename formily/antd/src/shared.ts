@@ -1,4 +1,4 @@
-import { TreeNode, Engine } from 'portalxsk-designable-core';
+import { TreeNode, Engine } from '@portalxsk/designable-core';
 
 export type ComponentNameMatcher =
   | string

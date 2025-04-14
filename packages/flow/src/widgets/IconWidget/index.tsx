@@ -1,11 +1,11 @@
 import React, { createContext, useContext } from 'react';
-import { isStr, isFn, isObj } from 'portalxsk-designable-shared';
+import { isStr, isFn, isObj } from '@portalxsk/designable-shared';
 import { observer } from '@formily/reactive-react';
 import { Tooltip, TooltipProps } from 'antd';
 import cls from 'classnames';
 import { genIconWidgetStyle } from './styles';
-import { useCssInJs } from 'portalxsk-designable-react';
-import { GlobalRegistry } from 'portalxsk-designable-core';
+import { useCssInJs } from '@portalxsk/designable-react';
+import { GlobalRegistry } from '@portalxsk/designable-core';
 
 const IconContext = createContext<IconProviderProps>(null);
 

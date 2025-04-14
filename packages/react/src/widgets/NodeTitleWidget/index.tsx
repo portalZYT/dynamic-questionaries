@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { observer } from '@formily/reactive-react';
-import { TreeNode } from 'portalxsk-designable-core';
+import { TreeNode } from '@portalxsk/designable-core';
 export interface INodeTitleWidgetProps {
   node: TreeNode;
 }

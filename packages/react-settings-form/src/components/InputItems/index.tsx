@@ -3,7 +3,7 @@ import {
   usePrefix,
   IconWidget,
   useCssInJs,
-} from 'portalxsk-designable-react';
+} from '@portalxsk/designable-react';
 import cls from 'classnames';
 import { genInputItemsItemStyle, genInputItemsStyle } from './styles';
 

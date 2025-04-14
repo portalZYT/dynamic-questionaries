@@ -10,7 +10,7 @@ import {
   ICustomEvent,
   isFn,
   requestIdle,
-} from 'portalxsk-designable-shared';
+} from '@portalxsk/designable-shared';
 
 export interface IOperation {
   tree?: ITreeNode;

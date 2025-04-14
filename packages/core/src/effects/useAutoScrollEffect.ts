@@ -6,7 +6,7 @@ import {
   IAutoScrollBasicInfo,
   IPoint,
   Point,
-} from 'portalxsk-designable-shared';
+} from '@portalxsk/designable-shared';
 
 export const useAutoScrollEffect = (engine: Engine) => {
   let xScroller: IAutoScrollBasicInfo = null;

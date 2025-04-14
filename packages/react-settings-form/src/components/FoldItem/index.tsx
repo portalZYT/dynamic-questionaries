@@ -6,7 +6,7 @@ import {
   IconWidget,
   useCssInJs,
   usePrefix,
-} from 'portalxsk-designable-react';
+} from '@portalxsk/designable-react';
 import cls from 'classnames';
 import { genFoldItemStyle } from './styles';
 

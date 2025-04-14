@@ -4,7 +4,7 @@ import {
   usePrefix,
   IconWidget,
   useCssInJs,
-} from 'portalxsk-designable-react';
+} from '@portalxsk/designable-react';
 import cls from 'classnames';
 import { genPolyInputStyle } from './styles';
 // import './styles.less'

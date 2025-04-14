@@ -1,4 +1,4 @@
-import { ICustomEvent } from 'portalxsk-designable-shared';
+import { ICustomEvent } from '@portalxsk/designable-shared';
 import { AbstractHistoryEvent } from './AbstractHistoryEvent';
 
 export class HistoryUndoEvent

@@ -6,7 +6,7 @@ import {
   uid,
   ICustomEvent,
   EventContainer,
-} from 'portalxsk-designable-shared';
+} from '@portalxsk/designable-shared';
 import {
   HistoryGotoEvent,
   HistoryRedoEvent,
