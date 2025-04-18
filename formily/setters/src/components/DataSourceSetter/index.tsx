@@ -1,6 +1,12 @@
-import React, { Fragment, useMemo, useState } from 'react';
+import React, {
+  Fragment,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from 'react';
 import cls from 'classnames';
-import { Modal, Button } from 'antd';
+import { Modal, Button, Space, Select } from 'antd';
 import { Form } from '@formily/core';
 import { observable } from '@formily/reactive';
 import { observer } from '@formily/reactive-react';
@@ -15,6 +21,7 @@ import { TreePanel } from './TreePanel';
 import { transformDataToValue, transformValueToData } from './shared';
 import { IDataSourceItem, ITreeDataSource } from './types';
 import { genDataSourceSetterStyle } from './styles';
+import { SettingsFormContext } from '@portalxsk/designable-react-settings-form';
 
 // import './styles.less'
 export interface IDataSourceSetterProps {
@@ -33,6 +40,7 @@ export interface IDataSourceSetterProps {
 
 export const DataSourceSetter: React.FC<IDataSourceSetterProps> = observer(
   (props) => {
+    const settingsFormContextContext: any = useContext(SettingsFormContext);
     const {
       className,
       value = [],
@@ -49,6 +57,7 @@ export const DataSourceSetter: React.FC<IDataSourceSetterProps> = observer(
       styleFun: genDataSourceSetterStyle,
     });
     const [modalVisible, setModalVisible] = useState(false);
+    let DictionarySelectorCom: any;
     const treeDataSource: ITreeDataSource = useMemo(
       () =>
         observable({
@@ -57,6 +66,12 @@ export const DataSourceSetter: React.FC<IDataSourceSetterProps> = observer(
         }),
       [value, modalVisible],
     );
+
+    if (settingsFormContextContext?.components) {
+      DictionarySelectorCom =
+        settingsFormContextContext?.components['DictionarySelector'];
+    }
+
     const openModal = () => setModalVisible(true);
     const closeModal = () => setModalVisible(false);
     return wrapSSR(
@@ -66,9 +81,12 @@ export const DataSourceSetter: React.FC<IDataSourceSetterProps> = observer(
         </Button>
         <Modal
           title={
-            <TextWidget token="SettingComponents.DataSourceSetter.configureDataSource" />
+            <Space>
+              <TextWidget token="SettingComponents.DataSourceSetter.configureDataSource" />
+              {DictionarySelectorCom && <DictionarySelectorCom />}
+            </Space>
           }
-          width="65%"
+          width="85%"
           bodyStyle={{ padding: 10 }}
           transitionName=""
           maskTransitionName=""

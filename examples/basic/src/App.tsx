@@ -4,7 +4,7 @@ import {
   KeyCode,
   Shortcut,
 } from '@portalxsk/designable-core';
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import {
   ComponentTreeWidget,
   CompositePanel,
@@ -44,6 +44,7 @@ import { Button } from 'antd';
 import { PreviewWidget } from './PreviewWidget';
 
 function App() {
+  const previewWidgetRef = useRef<any>(null);
   const engine = useMemo(
     () =>
       createDesigner({
@@ -93,7 +94,23 @@ function App() {
 
   return (
     <Designer engine={engine}>
-      <StudioPanel actions={[<Button onClick={handleSave}>保存</Button>]}>
+      <StudioPanel
+        actions={[
+          <Button onClick={handleSave}>保存</Button>,
+          <Button
+            onClick={() => {
+              console.log('1', engine);
+              console.log('3', previewWidgetRef?.current?.getForm());
+              console.log(
+                'getFormValues',
+                previewWidgetRef?.current?.getFormValues?.(),
+              );
+            }}
+          >
+            debug
+          </Button>,
+        ]}
+      >
         <CompositePanel>
           <CompositePanel.Item title="panels.Component" icon="Component">
             <ResourceWidget
@@ -136,14 +153,50 @@ function App() {
               </ViewPanel>
               <ViewPanel type={`PREVIEW`}>
                 {(tree) => (
-                  <PreviewWidget tree={tree} components={components} />
+                  <PreviewWidget
+                    tree={tree}
+                    components={components}
+                    ref={previewWidgetRef}
+                  />
                 )}
               </ViewPanel>
             </ViewportPanel>
           </WorkspacePanel>
         </Workspace>
         <SettingsPanel title="panels.PropertySettings">
-          <SettingsForm uploadAction="https://www.mocky.io/v2/5cc8019d300000980a055e76" />
+          <SettingsForm
+            components={{
+              DictionarySelector: (props: any) => {
+                return (
+                  <Select
+                    showSearch
+                    placeholder="Select a person"
+                    optionFilterProp="label"
+                    labelInValue
+                    onSelect={(value: any, option: any) => {
+                      console.log('选择字典项----', value, option);
+                    }}
+                    onChange={() => {}}
+                    onSearch={() => {}}
+                    options={[
+                      {
+                        value: 'jack',
+                        label: 'Jack',
+                      },
+                      {
+                        value: 'lucy',
+                        label: 'Lucy',
+                      },
+                      {
+                        value: 'tom',
+                        label: 'Tom',
+                      },
+                    ]}
+                  />
+                );
+              },
+            }}
+          />
         </SettingsPanel>
       </StudioPanel>
     </Designer>

@@ -1,5 +1,5 @@
 import React, { useMemo, Fragment } from 'react';
-import { Button } from 'antd';
+import { Button, Space } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
 import { ArrayItems, Form, Input, FormItem } from '@formily/antd-v5';
 import { createForm, Form as FormCore } from '@formily/core';
@@ -71,17 +71,20 @@ export const DataSettingPanel: React.FC<IDataSettingPanelProps> = observer(
           }
           extra={
             allowExtendOption ? (
-              <Button
-                type="text"
-                onClick={() => {
-                  form.setFieldState('map', (state) => {
-                    state.value.push({});
-                  });
-                }}
-                icon={<PlusOutlined />}
-              >
-                <TextWidget token="SettingComponents.DataSourceSetter.addKeyValuePair" />
-              </Button>
+              <Space>
+                <Button
+                  type="text"
+                  onClick={() => {
+                    form.setFieldState('map', (state) => {
+                      state.value.push({});
+                    });
+                    console.log('点击添加选项值的下拉框-----', props, form);
+                  }}
+                  icon={<PlusOutlined />}
+                >
+                  <TextWidget token="SettingComponents.DataSourceSetter.addKeyValuePair" />
+                </Button>
+              </Space>
             ) : null
           }
         />

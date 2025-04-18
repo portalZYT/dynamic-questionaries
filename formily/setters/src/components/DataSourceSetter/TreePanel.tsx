@@ -114,6 +114,7 @@ export const TreePanel: React.FC<ITreePanelProps> = observer((props) => {
                 map: initialKeyValuePairs,
                 children: [],
               });
+              console.log('点击添加选项值-----',props);
             }}
             icon={<IconWidget infer="Add" />}
           >
