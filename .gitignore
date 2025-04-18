@@ -1,6 +1,5 @@
 node_modules/
 .idea
-*/node_modules/
+yarn.lock
+package-lock.json
 .npmrc
-pnpm-lock.yaml
-*.log
