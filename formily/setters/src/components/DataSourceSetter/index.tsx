@@ -1,12 +1,6 @@
-import React, {
-  Fragment,
-  useContext,
-  useEffect,
-  useMemo,
-  useState,
-} from 'react';
+import React, { Fragment, useContext, useMemo, useState } from 'react';
 import cls from 'classnames';
-import { Modal, Button, Space, Select } from 'antd';
+import { Modal, Button, Space } from 'antd';
 import { Form } from '@formily/core';
 import { observable } from '@formily/reactive';
 import { observer } from '@formily/reactive-react';
@@ -66,7 +60,7 @@ export const DataSourceSetter: React.FC<IDataSourceSetterProps> = observer(
         }),
       [value, modalVisible],
     );
-
+    console.log('settingsFormContextContext----', settingsFormContextContext);
     if (settingsFormContextContext?.components) {
       DictionarySelectorCom =
         settingsFormContextContext?.components['DictionarySelector'];
@@ -81,9 +75,18 @@ export const DataSourceSetter: React.FC<IDataSourceSetterProps> = observer(
         </Button>
         <Modal
           title={
-            <Space>
+            <Space size={'large'}>
               <TextWidget token="SettingComponents.DataSourceSetter.configureDataSource" />
-              {DictionarySelectorCom && <DictionarySelectorCom />}
+              {DictionarySelectorCom && (
+                <>
+                  &nbsp;&nbsp; 选择字典项：
+                  <DictionarySelectorCom
+                    onAfterSelect={(value: any) => {
+                      console.log('选择字典项----packages', value);
+                    }}
+                  />
+                </>
+              )}
             </Space>
           }
           width="85%"

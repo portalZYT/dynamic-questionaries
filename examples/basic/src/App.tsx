@@ -167,10 +167,12 @@ function App() {
           <SettingsForm
             components={{
               DictionarySelector: (props: any) => {
+                console.log('DictionarySelector--props', props);
                 return (
                   <Select
+                    style={{ width: '180px' }}
                     showSearch
-                    placeholder="Select a person"
+                    placeholder="选择字典项"
                     optionFilterProp="label"
                     labelInValue
                     onSelect={(value: any, option: any) => {
