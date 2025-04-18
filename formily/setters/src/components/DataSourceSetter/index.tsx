@@ -79,7 +79,10 @@ export const DataSourceSetter: React.FC<IDataSourceSetterProps> = observer(
               <TextWidget token="SettingComponents.DataSourceSetter.configureDataSource" />
               {DictionarySelectorCom && (
                 <>
-                  &nbsp;&nbsp; 选择字典项：
+                  &nbsp;&nbsp;
+                  <span style={{ fontSize: '14px', fontWeight: 'normal' }}>
+                    选择字典项:
+                  </span>
                   <DictionarySelectorCom
                     onAfterSelect={(value: any) => {
                       console.log('选择字典项----packages', value);
