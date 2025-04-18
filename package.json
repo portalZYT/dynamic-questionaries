@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "portalxsk-form",
   "private": true,
   "workspaces": [
     "packages/*",
