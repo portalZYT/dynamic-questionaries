@@ -34,6 +34,9 @@ import {
   Card,
   FormGrid,
   Space,
+  Select,
+  Checkbox,
+  Radio,
 } from '@portalxsk/designable-formily-antd';
 import { SettingsForm } from '@portalxsk/designable-react-settings-form';
 import { transformToSchema } from '@portalxsk/designable-formily-transformer';
@@ -83,6 +86,9 @@ function App() {
     Card,
     FormGrid,
     Space,
+    Select,
+    Checkbox,
+    Radio,
   };
 
   return (
@@ -92,16 +98,24 @@ function App() {
           <CompositePanel.Item title="panels.Component" icon="Component">
             <ResourceWidget
               title="基础组件"
-              sources={[Input, Password, NumberPicker, Rate]}
+              sources={[
+                Input,
+                Select,
+                Password,
+                NumberPicker,
+                Rate,
+                Checkbox,
+                Radio,
+              ]}
             />
             <ResourceWidget
-              title="sources.Layouts"
+              title="布局组件"
               sources={[Card, FormGrid, Space]}
             />
-            <ResourceWidget
+            {/* <ResourceWidget
               title="sources.Arrays"
               sources={[ArrayCards, ArrayTable]}
-            />
+            /> */}
           </CompositePanel.Item>
           <CompositePanel.Item title="panels.OutlinedTree" icon="Outline">
             <OutlineTreeWidget />
